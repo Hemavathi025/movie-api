@@ -25,4 +25,8 @@ public class MovieService {
                 .findFirst()
                 .orElse(null);
     }
+    public List<Movie> getAllMovies() {
+        return movies;
+    }
+
 }
